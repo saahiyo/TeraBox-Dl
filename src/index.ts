@@ -4,7 +4,8 @@ import { isValidShareUrl, extractSurl, formatBytes } from "./lib/utils";
 const port = process.env.PORT || 5000;
 
 const cache = new Map<string, { data: any; expiry: number }>();
-const CACHE_DURATION = 2 * 60 * 60 * 1000;
+// const CACHE_DURATION = 2 * 60 * 60 * 1000;
+const CACHE_DURATION = 5000; // 5 seconds for testing
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
