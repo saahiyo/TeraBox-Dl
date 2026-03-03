@@ -8,7 +8,8 @@ def tera(surl: str):
     session = requests.Session(impersonate="chrome110")
 
     cookies = {
-        "ndus": "YuLuQdPpeHuiMGEQDXpWDu6K2P4-xInj8YGEzswD"
+        "ndus": "YQqQHXPpeHuiKntbwN1rlIT0bNXonEs69HQVjYBN;",
+        # "ndus2": "Y2y-XB1peHuiNEoNaN_GAf-P6_9SNe6NAufEVYwW;",
     }
 
     session.cookies.update(cookies)
@@ -48,5 +49,5 @@ def tera(surl: str):
     return json.dumps(api_response.json())
 
 if __name__ == "__main__":
-    surl = "1HSEb8PZRUE7Z1Tvd3ZtT0g"
+    surl = "1LNr3tyl5pI5KUM8BecGtyQ"
     print(tera(surl))

@@ -14,6 +14,11 @@ export const ALLOWED_HOSTS = new Set([
   "teraboxlink.com",
   "www.teraboxlink.com",
   "dm.terabox.app",
+  "terasharelink.com",
+  "www.terasharelink.com",
+  "teraboxurl.com",
+  "www.teraboxurl.com",
+  "terasharefile.com",
 ]);
 
 export function loadCookies(): Record<string, string> {
