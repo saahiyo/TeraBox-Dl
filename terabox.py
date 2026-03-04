@@ -9,7 +9,8 @@ def tera(surl: str):
 
     cookies = {
         # "ndus": "YQqQHXPpeHuiKntbwN1rlIT0bNXonEs69HQVjYBN;",
-        "ndus": "YTVkie4teHuilKGYrQ8fe_W6Mp0Io9RkU0TkLrn3",
+        # "ndus": "YTVkie4teHuilKGYrQ8fe_W6Mp0Io9RkU0TkLrn3",
+        "ndus": "YzoRRLPpeHui3XexVS-Aq3LyBsa1plAwuNKyCjgJ",
     }
 
     session.cookies.update(cookies)
